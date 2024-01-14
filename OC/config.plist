@@ -63,6 +63,8 @@
 			<true/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
+			<key>FixupAppleEfiImages</key>
+			<false/>
 			<key>ForceBooterSignature</key>
 			<false/>
 			<key>ForceExitBootServices</key>
@@ -519,6 +521,8 @@
 			<true/>
 			<key>HideAuxiliary</key>
 			<false/>
+			<key>InstanceIdentifier</key>
+			<string></string>
 			<key>LauncherOption</key>
 			<string>Full</string>
 			<key>LauncherPath</key>
@@ -648,7 +652,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v alcid=1 watchdog=0 agdpmod=pikera</string>
+				<string>alcid=5 watchdog=0 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -724,7 +728,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02711405CDJG36FB</string>
+			<string>C02933200GUJG36FB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -736,9 +740,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TF0TVHX87</string>
+			<string>C02Z70EPHX87</string>
 			<key>SystemUUID</key>
-			<string>B6C19EB4-22C0-4A68-9DB0-37AF08B11C71</string>
+			<string>3D52D7F3-5340-4D32-A696-6C95C14A4DF7</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1075,6 +1079,8 @@
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
 			<key>ResizeUsePciRbIo</key>
+			<false/>
+			<key>ShimRetainProtocol</key>
 			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
